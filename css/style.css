@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Yeseva+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*  */
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #3E3E3E;
+}
+.btn {
+    text-decoration: none;
+    font-size: 16px;
+    display: inline-block;
+    background-color: #FF5959;
+    padding: 10px 35px;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: 500;
+}
+h1, h2, h3, h4, h5, h6{
+    color: #13103A;
+}
+img{
+    width: 100%;
+}
+.row {
+    display: flex;
+ 
+    justify-content: space-between;
+}
+.focused-area .row{
+   align-items: center;
+}
+.focused-area {
+    width: 80%;
+    margin: 0 auto;
+    min-height: 100vh;
+}
+.focused-col {
+    flex-basis: 44%;
+}
+
+.focused-col h1 {
+    font-size: 60px;
+    font-family: 'Yeseva One', cursive;
+    margin-bottom: 30px;
+}
+
+.focused-col h1 span {
+    color: #FFAD5A;
+}
+.focused-col .btn {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.focused-col .scd{
+    font-size: 16px;
+}
+
+/* Mission css */
+.mission-area {
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 70px;
+    padding-top: 70px;
+}
+
+.mission-area h1 {
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.mission-area h1 span {
+    color: #FFAD5A;
+}
+
+.mission-cal {
+    flex-basis: 32%;
+    margin-bottom: 5%;
+    padding: 40px 33px;
+    border-radius: 10px;
+}
+
+.mission-cal img {
+    height: 150px;
+    width: 150px;
+}
+
+.mission-cal h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 15px 0;
+}
+
+.mission-cal p {
+    font-size: 16px;
+}
+
+.mission-1 {
+    background: #EEF6F7;
+}
+.mission-2 {
+    background: #FFEFEF;
+}
+.mission-3 {
+    background: #FFF4D6;
+}
+
+/* Develop CSS */
+.develp {
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+.develp-col.col-1 {
+    flex-basis: 35%;
+}
+
+.develp-col.col-2 {
+    flex-basis: 58%;
+}
+
+.develp .row {
+    align-items: center;
+}
+
+.develp-col.col-2 h2 {
+    font-size: 36px;
+}
+
+.col-2 p {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+
+/* corona applicaton */
+.corona-app {
+    width: 80%;
+    margin: auto;
+    padding-bottom: 80px;
+}
+
+.corona-app h2 {
+    font-size: 47px;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.corona-app h2 span {
+    color: #FFAD5A;
+}
+.corona-app .row {
+    align-items: center;
+}
+
+.corona-app-col-1 {
+    flex-basis: 47%;
+}
+.corona-app-col-2{
+    flex-basis: 47%;
+}
+.corona-app-col-1 img {
+    width: 60%;
+    margin: auto;
+    display: block;
+}
+.corona-app-col-2 h2 {
+    line-height: 131%;
+    text-align: left;
+    margin-bottom: 30px;
+}
+.corona-app-col-2 p{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+/* Footer Area CSS */
+.footer-area {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #000;
+}
+
+.footer-area h2 {
+    color: #fff;
+    font-size:36px;
+    margin-bottom: 23px;
+}
+
+.footer-area h2 span {
+   color: #FF5959;
+}
+
+.footer-area p {
+    color: #D9DBE1;
+    font-size: 14px;
+    font-weight: 400;
+}
